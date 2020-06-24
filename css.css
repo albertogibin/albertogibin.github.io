@@ -7,9 +7,10 @@
     text-align: center;
 }
 
-canvas{
-    height:100vh;
-    background-color:#16a085;
+canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
 }
 #webcoderskull h1{
   letter-spacing: 5px;
