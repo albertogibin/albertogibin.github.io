@@ -1,5 +1,39 @@
-canvas {
-  display: block;
-  width: 100vw;
-  height: 100vh;
+body{
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+}
+#container{
+  margin:0;
+  padding:0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 67%;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.svg-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.triangle {
+  fill-opacity: 1;
+  -webkit-transition: all 0.1s linear;
+}
+
+.triangle:hover{
+  fill-opacity: 0.7;
+}
+
+path {
+  -webkit-transition: all 0.1s linear;
+}
+
+path:hover{
+  fill: #444;
 }
