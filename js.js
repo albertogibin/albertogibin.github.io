@@ -55,7 +55,7 @@ function handleEvent(e) {
       r: 0,
       fill: nextColor
     });
-    var fillAnimation = anime ({
+    var fillAnimation = anime({
       targets: pageFill,
       r: targetR,
       duration:  Math.max(targetR / 2 , minCoverDuration ),
