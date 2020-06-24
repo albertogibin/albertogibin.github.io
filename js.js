@@ -1,5 +1,5 @@
 var c = document.getElementById("c");
-var ctx = c.getContext("2d");
+var ctx = c.getContext("webgl");
 var cH;
 var cW;
 var bgColor = "#FF6138";
