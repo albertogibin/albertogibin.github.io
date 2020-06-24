@@ -142,19 +142,6 @@ Circle.prototype.draw = function() {
   ctx.globalAlpha = 1;
 }
 
-var animate = anime({
-  duration: Infinity,
-  update: function() {
-    ctx.fillStyle = bgColor;
-    ctx.fillRect(0, 0, cW, cH);
-    animations.forEach(function(anim) {
-      anim.animatables.forEach(function(animatable) {
-        animatable.target.draw();
-      });
-    });
-  }
-});
-
 var resizeCanvas = function() {
   cW = window.innerWidth;
   cH = window.innerHeight;
