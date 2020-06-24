@@ -3,10 +3,3 @@ canvas {
   width: 100vw;
   height: 100vh;
 }
-h1{
-  letter-spacing: 5px;
-  font-size: 5rem;
-  font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-}
